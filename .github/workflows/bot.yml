@@ -2,7 +2,7 @@ name: signal-bot
 on:
   push:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/1 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
